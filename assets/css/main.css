@@ -3094,7 +3094,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.4s ease-in-out, visibility 0.4s;
 			transition: opacity 0.4s ease-in-out, visibility 0.4s;
 			border-bottom: 0;
-			font-size: 0.8em;
+			font-size: 1em;
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
@@ -3106,7 +3106,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.4s ease-in-out, visibility 0.4s;
 			transition: opacity 0.4s ease-in-out, visibility 0.4s;
 			border-bottom: 0;
-			font-size: 0.8em;
+			font-size: 1.2em;
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
@@ -3176,19 +3176,26 @@ input, select, textarea {
 					#header nav a[href="#menu"]:active {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
-
+		
 		#header.alt {
 			background-color: transparent;
 		}
+
 
 			#header.alt h1 {
 				opacity: 0;
 				visibility: hidden;
 			}
+			#header.alt nav a {
+				opacity: 100;
+				visibility: visible;
+			}
 			#header.alt a {
 				opacity: 0;
 				visibility: hidden;
 			}
+
+			
 
 		@media screen and (max-width: 736px) {
 
@@ -4171,4 +4178,5 @@ input, select, textarea {
 		}
 
 	}
+	
 	
