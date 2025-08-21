@@ -1,4 +1,5 @@
 import re
+import os
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
@@ -56,6 +57,9 @@ for i, (title, link) in enumerate(paper_entries, 1):
    
 
 # _posts folder
-filename = f"../../_posts/{monday.strftime('%Y-%m-%d')}-trending-ml-papers.md"
+posts_dir = "_posts"
+os.makedirs(posts_dir, exist_ok=True)
+
+filename = os.path.join(posts_dir, f"{monday.strftime('%Y-%m-%d')}-trending-ml-papers.md")
 with open(filename, "w", encoding="utf-8") as f:
     f.write(markdown_output)
