@@ -1,0 +1,33 @@
+name: Update Trending Papers
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"   # every Monday 12:00am PST (8am UTC)
+  workflow_dispatch:       # allow manual trigger too
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 numpy
+
+      - name: Run script
+        run: python scripts/weekly_papers.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add _posts/trending-ml-papers.md
+          git commit -m "Update weekly trending ML/AI papers" || echo "No changes"
+          git push
