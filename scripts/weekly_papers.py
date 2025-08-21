@@ -55,7 +55,7 @@ for i, (title, link) in enumerate(paper_entries, 1):
     markdown_output += f"### {i}. [{title}]({link})\n\n"
    
 
-# Step 6: Save to Jekyll _posts folder
+# _posts folder
 filename = f"_posts/{monday.strftime('%Y-%m-%d')}-trending-ml-papers.md"
 with open(filename, "w", encoding="utf-8") as f:
     f.write(markdown_output)
