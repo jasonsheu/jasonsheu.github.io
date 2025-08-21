@@ -5,12 +5,11 @@ permalink: /posts/2025/08/blog-post-1/
 tags:
   - ML
   - AI
-layout: post
 ---
 
 # Trending ML/AI Papers from the week of August 18, 2025 – August 24, 2025
 
-### 1. [Killing Two Birds with One Stone:Efficient and Robust Training of Face Recognition CNNs by Partial FC](https://huggingface.co/papers/2203.15565)
+### 1. [Killing Two Birds with One Stone: Efficient and Robust Training of Face Recognition CNNs by Partial FC](https://huggingface.co/papers/2203.15565)
 
 ### 2. [PC-Agent: A Hierarchical Multi-Agent Collaboration Framework for Complex Task Automation on PC](https://huggingface.co/papers/2502.14282)
 
