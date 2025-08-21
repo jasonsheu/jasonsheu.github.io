@@ -53,7 +53,7 @@ markdown_output = jekyll_frontmatter
 markdown_output += f"# Trending ML/AI Papers from the week of {week_range}\n\n"
 for i, (title, link) in enumerate(paper_entries, 1):
     markdown_output += f"### {i}. [{title}]({link})\n\n"
-    markdown_output += f"{abstract}\n\n"
+   
 
 # Step 6: Save to Jekyll _posts folder
 filename = f"_posts/{monday.strftime('%Y-%m-%d')}-trending-ml-papers.md"
