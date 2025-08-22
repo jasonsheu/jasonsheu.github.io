@@ -28,6 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add _posts/trending-ml-papers.md
+          FILE_NAME="$(date -u +'%Y-%m-%d')-trending-ml-papers.md"
+          git add "_posts/$FILE_NAME"
           git commit -m "Update weekly trending ML/AI papers" || echo "No changes"
           git push
