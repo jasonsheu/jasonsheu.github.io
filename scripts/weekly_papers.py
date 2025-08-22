@@ -47,12 +47,15 @@ week_range = f"{monday.strftime('%B %d, %Y')} – {sunday.strftime('%B %d, %Y')}
 
 # Prepare Jekyll frontmatter
 jekyll_date = today.strftime("%Y-%m-%d")
-jekyll_frontmatter = f"---\ntitle: \"Trending ML/AI Papers\"\ndate: {jekyll_date}\nlayout: post\n---\n\n"
+month = today.strftime("%m")
+week = today.strftime("%W")
+jekyll_frontmatter = f"---\ntitle: \"Trending ML/AI Papers\"\ndate: {jekyll_date}\npermalink: /posts/2025/{month}/blog-post-{week}/\ntags: [ml, ai, papers, trending]\n---\n\n"
 
 # Build markdown
 markdown_output = jekyll_frontmatter
 markdown_output += f"# Trending ML/AI Papers from the week of {week_range}\n\n"
 for i, (title, link) in enumerate(paper_entries, 1):
+    title = re.sub('\n', ' ', title)
     markdown_output += f"### {i}. [{title}]({link})\n\n"
    
 
