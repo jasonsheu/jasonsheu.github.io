@@ -63,6 +63,6 @@ for i, (title, link) in enumerate(paper_entries, 1):
 posts_dir = "_posts"
 os.makedirs(posts_dir, exist_ok=True)
 
-filename = os.path.join(posts_dir, f"trending-ml-papers.md")
+filename = os.path.join(posts_dir, f"{today.strftime('%Y-%m-%d')}-trending-ml-papers.md")
 with open(filename, "w", encoding="utf-8") as f:
     f.write(markdown_output)
