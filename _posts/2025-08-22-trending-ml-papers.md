@@ -5,25 +5,25 @@ permalink: /posts/2025/08/blog-post-33/
 tags: [ml, ai, papers, trending]
 ---
 
-# Trending ML/AI Papers from the week of August 18, 2025 – August 24, 2025
+Trending ML/AI Papers from the week of August 18, 2025 – August 24, 2025
 
-### 1. [Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent   Distillation and Agentic RL](https://huggingface.co/papers/2508.13167)
+1. [OpenCUA: Open Foundations for Computer-Use Agents](https://huggingface.co/papers/2508.09123)
 
-### 2. [MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://huggingface.co/papers/2507.07957)
+2. [WebSailor: Navigating Super-human Reasoning for Web Agent](https://huggingface.co/papers/2507.02592)
 
-### 3. [Easy Dataset: A Unified and Extensible Framework for Synthesizing LLM   Fine-Tuning Data from Unstructured Documents](https://huggingface.co/papers/2507.04009)
+3. [Qwen-Image Technical Report](https://huggingface.co/papers/2508.02324)
 
-### 4. [Qwen-Image Technical Report](https://huggingface.co/papers/2508.02324)
+4. [Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale   Asynchronous RL](https://huggingface.co/papers/2508.07976)
 
-### 5. [Look Before You Leap: A GUI-Critic-R1 Model for Pre-Operative Error   Diagnosis in GUI Automation](https://huggingface.co/papers/2506.04614)
+5. [MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://huggingface.co/papers/2507.07957)
 
-### 6. [WebSailor: Navigating Super-human Reasoning for Web Agent](https://huggingface.co/papers/2507.02592)
+6. [Speed Always Wins: A Survey on Efficient Architectures for Large   Language Models](https://huggingface.co/papers/2508.09834)
 
-### 7. [ComfyUI-Copilot: An Intelligent Assistant for Automated Workflow   Development](https://huggingface.co/papers/2506.05010)
+7. [WebDancer: Towards Autonomous Information Seeking Agency](https://huggingface.co/papers/2505.22648)
 
-### 8. [Matrix-Game: Interactive World Foundation Model](https://huggingface.co/papers/2506.18701)
+8. [UI-Venus Technical Report: Building High-performance UI Agents with RFT](https://huggingface.co/papers/2508.10833)
 
-### 9. [Stand-In: A Lightweight and Plug-and-Play Identity Control for Video   Generation](https://huggingface.co/papers/2508.07901)
+9. [LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos](https://huggingface.co/papers/2508.14041)
 
-### 10. [OmniTry: Virtual Try-On Anything without Masks](https://huggingface.co/papers/2508.13632)
+10. [LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models](https://huggingface.co/papers/2403.13372)
 
