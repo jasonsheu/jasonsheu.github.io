@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\jason\\\\Documents\\\\GitHub\\\\jasonsheu.github.io\" -Recurse -Force | Sort-Object FullName | Select-Object FullName, @{n='Type';e={if\\($_.PSIsContainer\\){'DIR'}else{'FILE'}}} | Format-Table -AutoSize)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\jason\\\\Documents\\\\GitHub\\\\jasonsheu.github.io\" -Depth 1 | Select-Object Name, @{n='Type';e={if\\($_.PSIsContainer\\){'Directory'}else{'File'}}} | Sort-Object Type, Name)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:leonkuodsc.github.io)",
+      "PowerShell(gh repo view jasonsheu/clinical-agent --json name,description,readme 2>&1)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
