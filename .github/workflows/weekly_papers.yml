@@ -1,9 +1,7 @@
 name: Update Trending Papers
 
 on:
-  schedule:
-    - cron: "0 8 * * 1"   # every Monday 12:00am PST (8am UTC)
-  workflow_dispatch:       # allow manual trigger too
+  workflow_dispatch:       # manual trigger only
 
 jobs:
   update:
